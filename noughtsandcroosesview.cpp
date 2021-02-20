@@ -12,7 +12,7 @@ NoughtsAndCroosesView::NoughtsAndCroosesView(QObject *parent) : QObject(parent)
 
     //scores is a pointer to QML's Rectangle that contain nextPlayer/nextRound button and score rectangle
     QObject* scores;
-    scores = window->children().at(1);
+    scores = window->children().at(2);
     nextPlayer = scores->children().at(1);
     score = scores->children().at(2);
 
